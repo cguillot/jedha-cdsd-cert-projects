@@ -1,0 +1,14 @@
+[project]
+name = "jedha-cdsd-cert-projects"
+version = "0.1.0"
+description = "Base environments for notebooks"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv]
+package = false
+dev-dependencies = [
+    "ipykernel>=6.29.5",
+    "pip>=25.0.1",
+]
