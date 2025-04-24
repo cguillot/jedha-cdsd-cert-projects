@@ -1,0 +1,34 @@
+Table city {
+  id int [primary key]
+  name varchar
+  latitude DECIMAL(9,6)
+  longitude DECIMAL(9,6)
+  created_at TIMESTAMP [default: `now()`]
+  updated_at TIMESTAMP [default: `now()`]
+}
+
+Table hotel {
+  id int [primary key]
+  city_id int [ref: > city.id]
+  name varchar
+  review_appreciation varchar
+  review_score DECIMAL(10,2)
+  rating_stars int
+  description text
+  latitude DECIMAL(9,6)
+  longitude DECIMAL(9,6)
+  url varchar
+  rating_squares int
+  created_at TIMESTAMP [default: `now()`]
+  updated_at TIMESTAMP [default: `now()`]
+}
+
+Table weather_forecast_score {
+  city_id int [primary key, ref: > city.id]
+  score_date date [primary key]
+  temperature DECIMAL(6,2)
+  min_pop DECIMAL(6,2)
+  mean_pop DECIMAL(6,2)
+  max_pop DECIMAL(6,2)
+  created_at TIMESTAMP [default: `now()`]
+}
