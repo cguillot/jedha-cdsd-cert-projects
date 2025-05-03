@@ -12,7 +12,7 @@ Il est recommandé de l'utiliser (VSCode devrait le proposer automatiquement).
 
 # Blocs
 - [Bloc 1](bloc-1/README.md) : Construction et alimentation d'une infrastructure de gestion de données
-- Bloc 2: TBD
+- [Bloc 2](bloc-2/README.md) : Analyse exploratoire, descriptive et inférentielle de données
 - Bloc 3: TBD
 - Bloc 4: TBD
 - Bloc 5: TBD

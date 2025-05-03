@@ -7,13 +7,19 @@ requires-python = ">=3.11"
 dependencies = [
     "boto3>=1.37.35",
     "colorlog>=6.9.0",
+    "matplotlib>=3.10.1",
+    "missingno>=0.5.2",
     "nbformat>=5.10.4",
     "pandas>=2.2.3",
     "plotly>=6.0.1",
     "psycopg2-binary>=2.9.10",
+    "pypandoc>=1.15",
+    "python-docx>=1.1.2",
     "python-dotenv>=1.1.0",
     "requests>=2.32.3",
     "scrapy>=2.12.0",
+    "seaborn>=0.13.2",
+    "skimpy>=0.0.18",
     "sqlalchemy>=2.0.40",
     "tqdm>=4.67.1",
     "unidecode>=1.3.8",
@@ -24,5 +30,6 @@ package = false
 dev-dependencies = [
     "ipykernel>=6.29.5",
     "ipywidgets>=8.1.6",
+    "nbconvert>=7.16.6",
     "pip>=25.0.1",
 ]
