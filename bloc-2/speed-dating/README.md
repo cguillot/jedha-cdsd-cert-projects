@@ -1,6 +1,6 @@
 # Projet Speed Dating
 ## Présentation
-### 📇 L’entreprise  
+### 📇 L’entreprise
 Tinder est une application de rencontres en ligne basée sur la géolocalisation. Les utilisateurs peuvent "swiper à droite" pour indiquer leur intérêt pour une personne, ou "swiper à gauche" pour passer. Chaque profil contient des photos, une courte biographie et une liste d’intérêts.
 
 Lancée en 2012 par Sean Rad lors d’un hackathon organisé par l’incubateur Hatch Labs à West Hollywood, l’application a depuis connu un immense succès, dépassant les 65 milliards de matchs dans le monde en 2021.
@@ -24,6 +24,8 @@ L'objectif principal est d'aider à examiner les données avant la formulation d
 - Trouver les relations intéressantes entre les variables.
 
 ## Structure du projet
+
+[Powerpoint du projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/)
 
 Présentation du projet JEDHA&nbsp;:
 - [00-JEDHA-Speed_Dating.ipynb](00-JEDHA-Speed_Dating.ipynb)

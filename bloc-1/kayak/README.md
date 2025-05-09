@@ -14,6 +14,8 @@ A partir de données réelles, l’application recommandera les meilleures desti
 
 ## Structure du projet
 
+[Powerpoint du projet Kayak](https://1drv.ms/p/c/e238927bf76c9315/ESk1hUCcGpNHh_DvEbOjhbIBD-HpSE8ygiF7FLtBFbhAwg?e=mtGkn8)
+
 Présentation du projet JEDHA&nbsp;:
 - [00-JEDHA-Plan_your_trip_with_Kayak.ipynb](00-JEDHA-Plan_your_trip_with_Kayak.ipynb)
 
