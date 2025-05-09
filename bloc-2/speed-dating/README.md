@@ -40,3 +40,27 @@ Configuration commune du projet&nbsp;:
 - nécessite la mise en place de l'infrastructure commune&nbsp;:
   - [.env](../../.env.sample) à la racine du repository
   - [common infra](../../common/README.md)
+
+## Viz
+
+Ici un rappel des images présentes dans le notebook mais non rendues par github. Soit plotly est inliné et le notebook explose (> 50 MB) ou on ne voit pas les graph...
+
+![image_02.png](assets/image_01.png)
+
+![image_02.png](assets/image_02.png)
+
+![image_03.png](assets/image_03.png)
+
+![image_04.png](assets/image_04.png)
+
+![image_05.png](assets/image_05.png)
+
+![image_06.png](assets/image_06.png)
+
+![image_07.png](assets/image_07.png)
+
+![image_08.png](assets/image_08.png)
+
+![image_09.png](assets/image_09.png)
+
+![image_10.png](assets/image_10.png)
