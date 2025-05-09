@@ -357,6 +357,11 @@ participant_cols = [
     "shar7_3",       # Importance réelle dans les décisions: intérêts communs (T3)
 ]
 
+pref_1_1_cols = ['attr1_1', 'sinc1_1', 'intel1_1', 'fun1_1', 'amb1_1', 'shar1_1']
+pref_4_1_cols = ['attr4_1', 'sinc4_1', 'intel4_1', 'fun4_1', 'amb4_1', 'shar4_1']
+pref_2_1_cols = ['attr2_1', 'sinc2_1', 'intel2_1', 'fun2_1', 'amb2_1', 'shar2_1']
+pref_1_2_cols = ['attr1_2', 'sinc1_2', 'intel1_2', 'fun1_2', 'amb1_2', 'shar1_2']
+
 ####################################################
 # Descriptive labels, from Speed+Dating+Data+Key.doc
 ####################################################

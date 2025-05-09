@@ -27,6 +27,11 @@ L'objectif principal est d'aider à examiner les données avant la formulation d
 
 Présentation du projet JEDHA&nbsp;:
 - [00-JEDHA-Speed_Dating.ipynb](00-JEDHA-Speed_Dating.ipynb)
+- Notebooks:
+  - [01-speed-dating-eda.ipynb](01-speed-dating-eda.ipynb): découverte du dataset
+  - [02-speed-dating-eda-data-cleaning.ipynb](02-speed-dating-eda-data-cleaning.ipynb): nettoyage et décoration des données
+  - [03-speed-dating-eda-participants.ipynb](03-speed-dating-eda-participants.ipynb): connaissance des participant
+  - [04-speed-dating-eda-match.ipynb](04-speed-dating-eda-match.ipynb): relations entre match
 - [viz.py](viz.py): fonctions mutualisées pour la visualisation
 - [speed_dating_document_context.py](speed_dating_document_context.py): fonctions et définitions relatives aux colonnes de données traitées (listes, noms)
 
