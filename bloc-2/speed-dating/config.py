@@ -19,6 +19,11 @@ LOCAL_SPEED_DATING_CSV_PATH = DATA_BASE_DIR / "Speed+Dating+Data.csv"
 LOCAL_SPEED_DATING_DATA_EXPLANATIONS_PATH = DATA_BASE_DIR / "Speed+Dating+Data+Key.docx"
 LOCAL_SPEED_DATING_DATA_EXPLANATIONS_MD_PATH = DATA_BASE_DIR / "Speed+Dating+Data+Key.md"
 
+# Les couleurs pré-définies pour certains type de données
+COLORS = {
+    "man": "lightblue",
+    "woman": "lightpink"
+}
 # secrets
 
 __env = {

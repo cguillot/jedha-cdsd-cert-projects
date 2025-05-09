@@ -3,8 +3,10 @@ import pandas as pd
 
 import matplotlib.pyplot as plt
 import seaborn as sns
+import plotly.graph_objects as go
 
 from speed_dating_document_context import LabelDecoder
+from config import COLORS
 
 def show_correlation_matrix(data: pd.DataFrame, figsize=(15, 15), corr_label_size=6.5, include_booleans=True):
     included_types = [np.number]
@@ -36,8 +38,6 @@ def show_correlation_matrix(data: pd.DataFrame, figsize=(15, 15), corr_label_siz
 
 # CORRELATION MATRIX - CUSTOMIZED HEATMAP FUNCTION
 # Credits: https://github.com/CoteDave/blog/blob/13432a3041e8d999ca91d34408cba0bee932222b/Demonstrating%20the%20power%20of%20feature%20engineering/Demonstrating%20the%20power%20of%20feature%20engineering%20-%20Part%20II.ipynb
-
-
 def correlation_matrix_np(x, y, size, color, figsize=(15, 15), corr_label_size=6.5):
     _, ax = plt.subplots(figsize=figsize)
 
@@ -139,7 +139,10 @@ def correlation_matrix_np(x, y, size, color, figsize=(15, 15), corr_label_size=6
     ax.yaxis.tick_right()  # Show vertical ticks on the right
 
 """
-    PLot one stacked bar plot per genre with proportion or each attribute expectations per genre
+    Show representations of attributes ratings (related to a phase/perspective bunch of attributes) per genre:
+    - stacked bar plot
+    - bar plot per attribute to ease comparison
+    - polar plot to quickly view overall tendencies
 """
 def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_label = None):
 
@@ -180,7 +183,8 @@ def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_
         labels = labels_df.iloc[:, i].tolist()
         bplot.bar_label(c,label_type='center',labels=labels)
 
-    # barplot to ease comparison
+    ############################
+    # barplot, group attributes ratings per genre to ease comparison
     long_format_df = expected_attributes_plot_df.stack().reset_index()
     long_format_df.columns = ['gender_label', 'attribute', 'score']
 
@@ -191,8 +195,7 @@ def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_
             col="attribute",
             kind="bar", hue="gender_label", palette=palette_gender_label, height=5, aspect=.4)
 
-    #g.map(plt_scatter, 'total_bill', 'tip')
-    g.fig.subplots_adjust(top=0.88)
+    g.fig.subplots_adjust(top=0.85)
     g.fig.suptitle(title)
 
     g.set_axis_labels("", "Score")
@@ -202,13 +205,57 @@ def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_
 
     for i, ax in enumerate(g.axes.ravel()):
         # i: attribute name
-        print("ax")
         for j, c in enumerate(ax.containers):
             # j: Man/Woman
-            print(labels_arr[j][i])
-
-            #labels = [f'{(v.get_height() / 1000):.1f}K' for v in c]
             labels = [labels_arr[j][i]]
             ax.bar_label(c, labels=labels, label_type='edge')
 
         ax.margins(y=0.2)
+
+    ##################
+    # Show polar plot
+    # Expect wide format
+    pp = create_attributes_polar_plot(expected_attributes_plot_df, title)
+    pp.show()
+
+"""
+    Show polar representation of attributes ratings (related to a phase/perspective bunch of attributes) per genre
+"""
+def create_attributes_polar_plot(df, title: str = None, ) -> go.Figure:
+    # Extract list of columns and rename labels
+    cols = list(df.columns)
+    labels = [LabelDecoder.get_attribute_label(c) for c in cols]
+
+    # Create a Polar Chart
+    fig = go.Figure()
+
+    # Women Polar Chart
+    fig.add_trace(go.Scatterpolar(
+        r=df.loc['Woman'].values.tolist(),
+        theta=labels,
+        fill='toself',
+        line_color=COLORS["woman"],
+        name='Woman'
+    ))
+    # Men Polar Chart
+    fig.add_trace(go.Scatterpolar(
+        r=df.loc['Man'].values.tolist(),
+        theta=labels,
+        fill='toself',
+        line_color=COLORS["man"],
+        name='Man'
+    ))
+    # Set Title and Value Range of Polar Chart
+    fig.update_layout(
+        title=title.replace("\n", "<br>"),
+        title_x=0.5,
+        width=700,
+        height=500,
+        polar=dict(
+            radialaxis=dict(
+                visible=False
+            )),
+        showlegend=True
+    )
+
+    return fig

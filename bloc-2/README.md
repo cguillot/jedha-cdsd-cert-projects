@@ -6,7 +6,7 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 
 - **C2.1** - Traiter des bases de données grâce à des analyses statistiques descriptives et inférentielles via des librairies de programmation comme Numpy ou Pandas, pour les organiser et les nettoyer afin de les normaliser par rapport à la population étudiée.
 
-- **C2.2- - Effectuer des analyses univariées et multivariées sur des bases de données structurées afin de préciser des relations entre plusieurs variables et d'établir des liens statistiques entre elles.
+- **C2.2** - Effectuer des analyses univariées et multivariées sur des bases de données structurées afin de préciser des relations entre plusieurs variables et d'établir des liens statistiques entre elles.
 
 - **C2.3** - Optimiser les analyses statistiques grâce au traitement parallélisé via l'utilisation d'outils comme Spark pour accélérer le temps de calcul d'un ordinateur afin de pouvoir analyser des volumes de données massifs (Big Data) 
 
@@ -15,6 +15,7 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 ### Études de cas
 
 - [Projet Speed Dating](./speed-dating/README.md) (Ressources et présentation)
+  - [PPT Projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/ERBHWGXph1JBrvi4y4bz_ksBxttHPQRADFtPrZmUebKepg?e=iuYrZl)
 - [Projet Steam's videogames platform](./steam/README.md) (Ressources et présentation)
 
 ### Thème d'évaluation :

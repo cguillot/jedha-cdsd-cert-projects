@@ -308,6 +308,7 @@ participant_cols = [
     "intel3_1",
     "fun3_1",
     "amb3_1",
+
     "attr5_1",
     "sinc5_1",
     "intel5_1",
@@ -320,6 +321,12 @@ participant_cols = [
     "fun1_s",        # Importance de l'amusement (mi-parcours)
     "amb1_s",        # Importance de l'ambition (mi-parcours)
     "shar1_s",       # Importance des intérêts communs (mi-parcours)"
+
+    "attr3_2",       # Auto-évaluation: attractivité (T2)
+    "sinc3_2",       # Auto-évaluation: sincérité (T2)
+    "intel3_2",      # Auto-évaluation: intelligence (T2)
+    "fun3_2",        # Auto-évaluation: amusement (T2)
+    "amb3_2",        # Auto-évaluation: ambition (T2)
 
     "attr7_2",       # Importance réelle dans les décisions: attractivité (T2)
     "sinc7_2",       # Importance réelle dans les décisions: sincérité (T2)

@@ -27,17 +27,11 @@ L'objectif principal est d'aider à examiner les données avant la formulation d
 
 Présentation du projet JEDHA&nbsp;:
 - [00-JEDHA-Speed_Dating.ipynb](00-JEDHA-Speed_Dating.ipynb)
+- [viz.py](viz.py): fonctions mutualisées pour la visualisation
+- [speed_dating_document_context.py](speed_dating_document_context.py): fonctions et définitions relatives aux colonnes de données traitées (listes, noms)
 
 Configuration commune du projet&nbsp;:
 - [config.py](config.py)&nbsp;: exporte les variables et secrets utilisés par les différents notebooks
 - nécessite la mise en place de l'infrastructure commune&nbsp;:
   - [.env](../../.env.sample) à la racine du repository
   - [common infra](../../common/README.md)
-
-
-# Download
-wget https://github.com/jgm/pandoc/releases/download/3.6.4/pandoc-3.6.4-1-amd64.deb
-# Install
-sudo dpkg -i pandoc-3.6.4-1-amd64.deb
-# Check installation
-pandoc -v

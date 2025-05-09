@@ -16,4 +16,6 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 ### Étude de cas
 
 - [Projet Kayak](./kayak/README.md) : Ressources et présentation
+  - [PPT Projet Kayak](https://1drv.ms/p/c/e238927bf76c9315/ESk1hUCcGpNHh_DvEbOjhbIBD-HpSE8ygiF7FLtBFbhAwg?e=mtGkn8)
+
 
