@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "boto3>=1.37.35",
     "colorlog>=6.9.0",
+    "kaleido==0.2.0",
     "matplotlib>=3.10.1",
     "missingno>=0.5.2",
     "nbformat>=5.10.4",

@@ -144,7 +144,7 @@ def correlation_matrix_np(x, y, size, color, figsize=(15, 15), corr_label_size=6
     - bar plot per attribute to ease comparison
     - polar plot to quickly view overall tendencies
 """
-def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_label = None):
+def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_label = None, alt_image_name = None):
 
     expected_attributes_df = df[["gender_label"] + attributes].groupby("gender_label").mean()
     expected_attributes_df["Total"] = expected_attributes_df.sum(axis=1)
@@ -217,6 +217,10 @@ def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_
     # Expect wide format
     pp = create_attributes_polar_plot(expected_attributes_plot_df, title)
     pp.show(config = {'staticPlot': True})
+
+    if alt_image_name:
+        pp.write_image(f"assets/{alt_image_name}")
+
 
 """
     Show polar representation of attributes ratings (related to a phase/perspective bunch of attributes) per genre
