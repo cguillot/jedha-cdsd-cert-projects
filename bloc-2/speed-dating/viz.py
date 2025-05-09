@@ -216,7 +216,7 @@ def plot_attribute_expectations_per_genre(df, attributes, title, palette_gender_
     # Show polar plot
     # Expect wide format
     pp = create_attributes_polar_plot(expected_attributes_plot_df, title)
-    pp.show()
+    pp.show(config = {'staticPlot': True})
 
 """
     Show polar representation of attributes ratings (related to a phase/perspective bunch of attributes) per genre
