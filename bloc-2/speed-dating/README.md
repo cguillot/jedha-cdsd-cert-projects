@@ -1,4 +1,7 @@
 # Projet Speed Dating
+
+> [Présentation du projet sur Julie (JEDHA)](https://app.jedha.co/course/project-speed-dating-ft/speed-dating-ft)
+
 ## Présentation
 ### 📇 L’entreprise
 Tinder est une application de rencontres en ligne basée sur la géolocalisation. Les utilisateurs peuvent "swiper à droite" pour indiquer leur intérêt pour une personne, ou "swiper à gauche" pour passer. Chaque profil contient des photos, une courte biographie et une liste d’intérêts.
@@ -25,7 +28,7 @@ L'objectif principal est d'aider à examiner les données avant la formulation d
 
 ## Structure du projet
 
-[Powerpoint du projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/)
+[Powerpoint du projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/ERBHWGXph1JBrvi4y4bz_ksBxttHPQRADFtPrZmUebKepg?e=iuYrZl)
 
 Présentation du projet JEDHA&nbsp;:
 - [00-JEDHA-Speed_Dating.ipynb](00-JEDHA-Speed_Dating.ipynb)

@@ -15,8 +15,9 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 ### Études de cas
 
 - [Projet Speed Dating](./speed-dating/README.md) (Ressources et présentation)
-  - [PPT Projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/ERBHWGXph1JBrvi4y4bz_ksBxttHPQRADFtPrZmUebKepg?e=iuYrZl)
+  - [PPT projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/ERBHWGXph1JBrvi4y4bz_ksBxttHPQRADFtPrZmUebKepg?e=iuYrZl)
 - [Projet Steam's videogames platform](./steam/README.md) (Ressources et présentation)
+  - [PPT projet Steam](https://1drv.ms/p/c/e238927bf76c9315/ET81F6nhhU9Ks0XiQK0Vd7IBk9WaYg2pUmp74HdUFLRYaA?e=xGkHF1)
 
 ### Thème d'évaluation :
 - Gestion de valeurs manquantes et aberrantes d'une base de données non-massives puis analyse pour déterminer et présenter des tendances par le biais de graphiques.

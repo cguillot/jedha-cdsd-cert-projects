@@ -1,4 +1,7 @@
 # Projet Kayak
+
+> [Présentation du projet sur Julie (JEDHA)](https://app.jedha.co/course/project-plan-your-trip-with-kayak-ft/plan-your-trip-with-kayak-ft)
+
 ## Présentation
 ### Contexte
 L'équipe Marketing a fait deux constats à l’issu d'une étude utilisateur&nbsp;:
