@@ -7,6 +7,8 @@ requires-python = ">=3.11"
 dependencies = [
     "boto3>=1.37.35",
     "colorlog>=6.9.0",
+    "en-core-web-sm",
+    "hf-xet>=1.1.1",
     "kaleido==0.2.0",
     "matplotlib>=3.10.1",
     "missingno>=0.5.2",
@@ -18,12 +20,19 @@ dependencies = [
     "python-docx>=1.1.2",
     "python-dotenv>=1.1.0",
     "requests>=2.32.3",
+    "scikit-learn>=1.6.1",
     "scrapy>=2.12.0",
     "seaborn>=0.13.2",
     "skimpy>=0.0.18",
+    "spacy>=3.8.5",
     "sqlalchemy>=2.0.40",
+    "tiktoken>=0.9.0",
+    "torchview>=0.2.7",
+    "torchviz>=0.0.3",
     "tqdm>=4.67.1",
+    "transformers>=4.51.3",
     "unidecode>=1.3.8",
+    "wordcloud>=1.9.4",
 ]
 
 [tool.uv]
@@ -34,3 +43,6 @@ dev-dependencies = [
     "nbconvert>=7.16.6",
     "pip>=25.0.1",
 ]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0.tar.gz" }
