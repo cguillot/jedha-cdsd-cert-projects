@@ -1,4 +1,4 @@
-# Projet Steam's videogames platform
+# Projet AT&T Spam Detection
 
 > [Présentation du projet sur Julie (JEDHA)](https://app.jedha.co/course/projects-deep-learning-ft/att-spam-detector-ft)
 
@@ -16,7 +16,7 @@ L’objectif de ce projet est de développer un détecteur de spam capable d’i
 
 
 ## Structure du projet
-[Powerpoint du projet Steam]()
+[Powerpoint du projet Steam](https://1drv.ms/p/c/e238927bf76c9315/EdFKSmyKS79Phkl8y7KuKOUBgo4k1mfEO9C_v8s4U985zg?e=78PN7M)
 
 Délivrables:
-
+- [(01-b4-AT&T_spam_detector-01](01-b4-AT&T_spam_detector-01.ipynb): le notebook présentant les différents modèles expérimentés

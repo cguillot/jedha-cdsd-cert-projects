@@ -17,7 +17,7 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 ### Études de cas
 
 - [Projet AT&T Spam Detector](./AT&T Spam Detector/README.md) (Ressources et présentation)
-  - [PPT projet Speed Dating](https://1drv.ms/p/c/e238927bf76c9315/ERBHWGXph1JBrvi4y4bz_ksBxttHPQRADFtPrZmUebKepg?e=iuYrZl)
+  - [PPT projet AT&T Spam Detector](https://1drv.ms/p/c/e238927bf76c9315/EdFKSmyKS79Phkl8y7KuKOUBgo4k1mfEO9C_v8s4U985zg?e=78PN7M)
 
 ### Thème d'évaluation :
 - Analyse de sentiment, par l'élaboration d'un algorithme permettant de déterminer le sentiment d'un utilisateur à l'égard d'un produit (avec possibilité de créer de la nouvelle donnée pour agrémenter la base).
