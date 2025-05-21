@@ -14,6 +14,7 @@ L’objectif de ce projet est de développer un détecteur de spam capable d’i
 
 ## 📁 Source des données
 
+Un [dataset](https://full-stack-bigdata-datasets.s3.eu-west-3.amazonaws.com/Deep+Learning/project/spam.csv) contenant envirant 5500 lignes représentant des messages SMS et leur classification en SPAM ou NON SPAM afin d'aider à l'entrainement d'un modèle de classification (Deep Learning dans le contexte de ce projet).
 
 ## Structure du projet
 [Powerpoint du projet Steam](https://1drv.ms/p/c/e238927bf76c9315/EdFKSmyKS79Phkl8y7KuKOUBgo4k1mfEO9C_v8s4U985zg?e=78PN7M)
