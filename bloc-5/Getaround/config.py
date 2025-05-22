@@ -20,29 +20,21 @@ LOCAL_GETAROUND_PRICING_DATASET_CSV_PATH = DATA_BASE_DIR / "get_around_pricing_p
 
 # Machine Learning assets
 LOCAL_ML_PREPOCESSOR_PKL_PATH = "./assets/ml/preprocessor.pkl"
-LOCAL_ML_LINEAR_REGRESSION_MODEL_PKL_PATH = "./assets/ml/model_linear_regression.pkl"
-LOCAL_ML_RIDGE_MODEL_PKL_PATH = "./assets/ml/model_ridge.pkl"
-LOCAL_ML_LASSO_MODEL_PKL_PATH = "./assets/ml/model_lasso.pkl"
-LOCAL_ML_RANDOM_FOREST_MODEL_PKL_PATH = "./assets/ml/model_random_forest.pkl"
-LOCAL_ML_XGBOOST_MODEL_PKL_PATH = "./assets/ml/model_xgboost.pkl"
+LOCAL_ML_LINEAR_REGRESSION_MODEL_JOBLIB_PATH = "./assets/ml/model_linear_regression.joblib"
+LOCAL_ML_RIDGE_MODEL_JOBLIB_PATH = "./assets/ml/model_ridge.joblib"
+LOCAL_ML_LASSO_MODEL_JOBLIB_PATH = "./assets/ml/model_lasso.joblib"
+LOCAL_ML_RANDOM_FOREST_MODEL_JOBLIB_PATH = "./assets/ml/model_random_forest.joblib"
+# XGBoost
+LOCAL_ML_XGBOOST_PREPOCESSOR_PKL_PATH = "./assets/ml/preprocessor_xgboost.pkl"
+LOCAL_ML_XGBOOST_MODEL_JOBLIB_PATH = "./assets/ml/model_xgboost.joblib"
 
 # Enforce ML parent path esit
 Path(LOCAL_ML_PREPOCESSOR_PKL_PATH).parent.mkdir(parents=True, exist_ok=True)
-
-# # Les couleurs pré-définies pour certains type de données
-# COLORS = {
-#     "man": "lightblue",
-#     "woman": "lightpink"
-# }
 
 # secrets
 __env = {
     **dotenv_values("../../.env")
 }
-
-S3_BUCKET_NAME=__env["CDSD_S3_BUCKET_NAME"]
-
-#POSTGRES_DB_URL=__env["B1_KAYAK_POSTGRES_DB_URL"]
 
 secrets = {
     "AWS_ACCESS_KEY_ID": __env["CDSD_AWS_ACCESS_KEY_ID"],

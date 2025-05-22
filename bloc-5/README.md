@@ -18,4 +18,6 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 ### Étude de cas
 
 - [Projet Getaround](./Getaround/README.md) (Ressources et présentation)
-  - [PPT projet Getaround]()
+  - [PPT projet Getaround](https://1drv.ms/p/c/e238927bf76c9315/ETy5AJ1yD6xLijda1PSJ9GgB-5rh51QXZBfBJZ3TciqBCA?e=uKwPMn)
+  - [Getaround suggested price API](https://pikaboum-cdsd-bloc-5-getaround-api.hf.space/)
+  - [Getaround rentals dahsboard](https://pikaboum-cdsd-bloc-5-getaround-dashboard.hf.space/)

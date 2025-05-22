@@ -177,3 +177,6 @@ cython_debug/
 .terraform
 .terraform.lock.hcl
 terraform.tfstate
+
+# Temp folder
+tmp/

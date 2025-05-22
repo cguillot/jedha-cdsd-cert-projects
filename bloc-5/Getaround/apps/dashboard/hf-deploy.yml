@@ -1,0 +1,13 @@
+hf-deploy:
+  name: cdsd-bloc-5-getaround-dashboard
+  content:
+    - from: Dockerfile
+    - from: main.py
+    - from: pyproject.toml
+    - from: ../../../../uv.lock
+    - from: ../../data/get_around_delay_analysis.xlsx
+      to: data/get_around_delay_analysis.xlsx
+    - from: hf.README.md
+      to: README.md
+  environment:
+    CDSD_B5_GETAROUND_PREDICT_API_ENDPOINT_URL: ${env::CDSD_B5_GETAROUND_PREDICT_API_ENDPOINT_URL}
