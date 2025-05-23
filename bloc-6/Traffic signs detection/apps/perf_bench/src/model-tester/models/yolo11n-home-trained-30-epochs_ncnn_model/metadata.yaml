@@ -1,0 +1,28 @@
+description: Ultralytics YOLO11n model trained on /datasets/raw/Self-Driving Cars.v6-version-4-prescan-416x416.yolov11/data.yaml
+author: Ultralytics
+date: '2024-12-19T17:07:32.858128'
+version: 8.3.49
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 480
+- 480
+names:
+  0: green_traffic_light
+  1: red_traffic_light
+  2: speed_limit_10
+  3: speed_limit_100
+  4: speed_limit_110
+  5: speed_limit_120
+  6: speed_limit_20
+  7: speed_limit_30
+  8: speed_limit_40
+  9: speed_limit_50
+  10: speed_limit_60
+  11: speed_limit_70
+  12: speed_limit_80
+  13: speed_limit_90
+  14: Stop

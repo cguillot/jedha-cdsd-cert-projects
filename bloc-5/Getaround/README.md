@@ -41,7 +41,7 @@ Deux datasets sont fournis afin de réaliser une analyse et de présenter un mod
 - [Pricing Optimization](https://full-stack-assets.s3.eu-west-3.amazonaws.com/Deployment/get_around_pricing_project.csv) 👈 Machine Learning
 
 ## Structure du projet
-[Powerpoint du projet Steam]()
+[Powerpoint du projet Steam](https://1drv.ms/p/c/e238927bf76c9315/ETy5AJ1yD6xLijda1PSJ9GgB-5rh51QXZBfBJZ3TciqBCA?e=uKwPMn)
 
 Délivrables:
 - Notebooks:
@@ -51,6 +51,7 @@ Délivrables:
 
 - Applications:
   - [deploiement](apps/README.md)
+  - [Helper deploiment Hugging Fece](https://github.com/cguillot/jedha_infra_helpers)
 
 - Services déployés:
   - API: https://huggingface.co/spaces/pikaBOUM/cdsd-bloc-5-getaround-api

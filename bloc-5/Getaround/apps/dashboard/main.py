@@ -321,27 +321,31 @@ with tab_price_tool:
 
     # Formulaire utilisateur
     with st.form("predict_form"):
-        model_key = st.selectbox("Marque", [
-            "Citroën", "Peugeot", "PGO", "Renault", "Audi", "BMW", "Ford", "Mercedes", "Opel",
-            "Porsche", "Volkswagen", "KIA Motors", "Alfa Romeo", "Ferrari", "Fiat", "Lamborghini",
-            "Maserati", "Lexus", "Honda", "Mazda", "Mini", "Mitsubishi", "Nissan", "SEAT",
-            "Subaru", "Suzuki", "Toyota", "Yamaha"
-        ])
+        c1, c2 = st.columns(2)
 
-        mileage = st.number_input("Kilométrage", min_value=0)
-        engine_power = st.number_input("Puissance moteur (ch)", min_value=0)
+        with c1:
+            car_type = st.selectbox("Type de voiture", ["convertible", "coupe", "estate", "hatchback", "sedan", "subcompact", "suv", "van"])
+            mileage = st.number_input("Kilométrage", min_value=0)
+            fuel = st.selectbox("Type de carburant", ["diesel", "petrol", "hybrid_petrol", "electro"])
 
-        fuel = st.selectbox("Type de carburant", ["diesel", "petrol", "hybrid_petrol", "electro"])
-        paint_color = st.selectbox("Couleur", ["black", "grey", "white", "red", "silver", "blue", "orange", "beige", "brown", "green"])
-        car_type = st.selectbox("Type de voiture", ["convertible", "coupe", "estate", "hatchback", "sedan", "subcompact", "suv", "van"])
+            has_gps = st.checkbox("GPS intégré", value=False)
+            has_air_conditioning = st.checkbox("Climatisation", value=False)
+            automatic_car = st.checkbox("Boîte automatique", value=False)
 
-        private_parking_available = st.checkbox("Parking privé disponible", value=False)
-        has_gps = st.checkbox("GPS intégré", value=False)
-        has_air_conditioning = st.checkbox("Climatisation", value=False)
-        automatic_car = st.checkbox("Boîte automatique", value=False)
-        has_getaround_connect = st.checkbox("Getaround Connect", value=False)
-        has_speed_regulator = st.checkbox("Régulateur de vitesse", value=False)
-        winter_tires = st.checkbox("Pneus hiver", value=False)
+        with c2:
+            model_key = st.selectbox("Marque", [
+                "Citroën", "Peugeot", "PGO", "Renault", "Audi", "BMW", "Ford", "Mercedes", "Opel",
+                "Porsche", "Volkswagen", "KIA Motors", "Alfa Romeo", "Ferrari", "Fiat", "Lamborghini",
+                "Maserati", "Lexus", "Honda", "Mazda", "Mini", "Mitsubishi", "Nissan", "SEAT",
+                "Subaru", "Suzuki", "Toyota", "Yamaha"
+            ])
+            engine_power = st.number_input("Puissance moteur (ch)", min_value=0)
+            paint_color = st.selectbox("Couleur", ["black", "grey", "white", "red", "silver", "blue", "orange", "beige", "brown", "green"])
+
+            private_parking_available = st.checkbox("Parking privé disponible", value=False)
+            has_getaround_connect = st.checkbox("Getaround Connect", value=False)
+            has_speed_regulator = st.checkbox("Régulateur de vitesse", value=False)
+            winter_tires = st.checkbox("Pneus hiver", value=False)
 
         submitted = st.form_submit_button("🔍 Estimer le prix")
 

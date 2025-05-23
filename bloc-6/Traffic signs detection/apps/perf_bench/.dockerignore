@@ -1,0 +1,5 @@
+.env
+scripts
+Dockerfile
+__pycache__
+.streamlit
