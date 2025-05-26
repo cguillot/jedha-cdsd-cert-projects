@@ -33,6 +33,6 @@ Délivrables:
 - [03-b3-JEDHA-Conversion_rate_challenge_v3.ipynb](03-b3-JEDHA-Conversion_rate_challenge_v3.ipynb): tentatives d'améliorations du modèle de base (optimisaton des hyperparamètres, feature engineering, seuil)
 
 Présentation
-- [PPT projet Conversion rate challenge](https://1drv.ms/p/c/e238927bf76c9315/ETp1MqyLPftLo9w6GWvmkrYB24-0Ctm3eUtMqFmh9KTzXA?e=tmBDrF) : 
+- [PPT projet Conversion rate challenge](https://1drv.ms/p/c/e238927bf76c9315/ETp1MqyLPftLo9w6GWvmkrYB24-0Ctm3eUtMqFmh9KTzXA?e=tmBDrF)
 
 

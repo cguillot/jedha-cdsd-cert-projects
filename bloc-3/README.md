@@ -23,7 +23,7 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 
 #### Supervised Machine Learning: Projet Walmart Sales
 - [Projet Walmart Sales](./Walmart%20Sales/README.md) : ressources et présentation
-- [PPT projet Walmart Sales]()
+- [PPT projet Walmart Sales](https://1drv.ms/p/c/e238927bf76c9315/EW-uW4KSA8hBk2dIcZgXR1oB5FSM5bKjnzzqUBvt5YE6NA?e=a16Fq7)
 
 #### Unsupervised Machine Learning: A CHOISIR
 1 projet parmi les projets suivants :
