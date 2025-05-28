@@ -27,9 +27,10 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 
 #### Unsupervised Machine Learning: A CHOISIR
 1 projet parmi les projets suivants :
-- Projet Uber Pickups
-**OU**
-- Projet The North Face ecommerce
+- Projet 
+- [Projet Uber Pickups](./Uber%20Pickups/README.md) : ressources et présentation
+- [PPT projet Uber Pickups](https://1drv.ms/p/c/e238927bf76c9315/EUzidAMyPTlBk698DPXLAJYBEeoNl3QmiQaIYoz-HYnVPQ?e=o5Zsq2)
+
 
 ### Thème d'évaluation :
 
