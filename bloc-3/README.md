@@ -17,15 +17,15 @@ Code: [RNCP35288](https://www.francecompetences.fr/recherche/rncp/35288/)
 - 2 projets Supervised Machine Learning.
 - 1 projet Unsupervised Machine Learning
 
-#### Supervised Machine Learning: Projet Conversion rate challenge
+#### Supervised Machine Learning : Projet Conversion rate challenge
 - [Projet Conversion rate challenge](./Conversion%20rate%20challenge/README.md) : ressources et présentation
 - [PPT projet Conversion rate challenge](https://1drv.ms/p/c/e238927bf76c9315/ETp1MqyLPftLo9w6GWvmkrYB24-0Ctm3eUtMqFmh9KTzXA?e=tmBDrF)
 
-#### Supervised Machine Learning: Projet Walmart Sales
+#### Supervised Machine Learning : Projet Walmart Sales
 - [Projet Walmart Sales](./Walmart%20Sales/README.md) : ressources et présentation
 - [PPT projet Walmart Sales](https://1drv.ms/p/c/e238927bf76c9315/EW-uW4KSA8hBk2dIcZgXR1oB5FSM5bKjnzzqUBvt5YE6NA?e=a16Fq7)
 
-#### Unsupervised Machine Learning: Projet Uber Pickups
+#### Unsupervised Machine Learning : Projet Uber Pickups
 - [Projet Uber Pickups](./Uber%20Pickups/README.md) : ressources et présentation
 - [PPT projet Uber Pickups](https://1drv.ms/p/c/e238927bf76c9315/EUzidAMyPTlBk698DPXLAJYBEeoNl3QmiQaIYoz-HYnVPQ?e=o5Zsq2)
 
