@@ -47,4 +47,8 @@ Présentation
 
 ## Wednesday hot zones animation
 
+### Interactive hot-zones map
+[wednesday's hot-zones](assets/wednesday_hot_zones.html)
+
+### Animated GIF
 ![wednesday_hot_zones_animation](assets/wednesday_hot_zones_animation.gif)
