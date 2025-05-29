@@ -36,8 +36,15 @@ JEDHA:
 - [00-b3-JEDHA-Uber_Pickups.ipynb](00-b3-JEDHA-Uber_Pickups.ipynb) : présentation du projet
 
 Délivrables:
-- [01-b3-Uber_Pickups.ipynb](01-b3-Uber_Pickups.ipynb) : Notebook présentant l'analyse: EDA, K-Means, DBSCAN, généralisation
-- [02-b3-Uber_Pickups_images.md](02-b3-Uber_Pickups_images.md) : inventaire des snapshot des graphiques du notebooks (ceux qui ne sont pas visibles dans github)
+- [01-b3-Uber_Pickups_EDA](01-b3-Uber_Pickups_EDA.ipynb) : chargement des données et EDA
+- [02-b3-Uber_Pickups_K-Means](02-b3-Uber_Pickups_K-Means.ipynb) : exploration clustering K-Means
+- [03-b3-Uber_Pickups_DBSCAN](03-b3-Uber_Pickups_DBSCAN.ipynb) : exploration clustering DBSCAN
+- [04-b3-Uber_Pickups_Generalisation](04-b3-Uber_Pickups_Generalisation.ipynb) : construction d'un graphe interactif pour les différent jours de la semaine
+- [02-b3-Uber_Pickups_images.md](05-b3-Uber_Pickups_images.md) : inventaire des snapshot des graphiques du notebooks (ceux qui ne sont pas visibles dans github)
 
 Présentation
 - [PPT projet Uber Pickups](https://1drv.ms/p/c/e238927bf76c9315/EUzidAMyPTlBk698DPXLAJYBEeoNl3QmiQaIYoz-HYnVPQ?e=o5Zsq2)
+
+## Wednesday hot zones animation
+
+![wednesday_hot_zones_animation](assets/wednesday_hot_zones_animation.gif)
