@@ -293,7 +293,7 @@ def build_hot_zones_map(hourly_df, clusters_df, density):
         marker=dict(
             size=18,
             color="black",
-            symbol="star"
+            symbol="car"
         ),
         # name="",
         showlegend=False,
