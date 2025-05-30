@@ -44,6 +44,7 @@ Récupération des meilleurs hotels pour chaque ville&nbsp;:
 - [scrapper](scrapper/README.md)&nbsp;: projet scrapy pour le scraping de Booking.com
 - [03-b1-kayak-get-hotels.ipynb](03-b1-kayak-get-hotels.ipynb)&nbsp;: invocation du scraper dupuis un notebook
 - [utils.py](utils.py)&nbsp;: fonctions utilitaires
+- [03-b1-kayak-get-hotels_scrapper.log](03-b1-kayak-get-hotels_scrapper.log)&nbsp;: output log of scapper
 - résultats&nbsp;:
   - [best_hotels_of_cities.json](data/best_hotels_of_cities.json)&nbsp;: liste des hotels avec leurs caractéristiques
 
