@@ -1,0 +1,16 @@
+hf-deploy:
+  name: cdsd-bloc-5-getaround-api
+  content:
+    - from: Dockerfile
+    - from: main.py
+    - from: pyproject.toml
+    - from: ../../../../uv.lock
+    - from: ../../assets/ml/model_xgboost.joblib
+      to: model/getaround_model.joblib
+    - from: ../../assets/ml/preprocessor_xgboost.pkl
+      to: model/getaround_preprocessor.pkl
+    - from: hf.README.md
+      to: README.md
+  environment:
+    CDSD_B5_GETAROUND_PREPROCESSOR_PATH: "./model/getaround_preprocessor.pkl"
+    CDSD_B5_GETAROUND_MODEL_PATH: "./model/getaround_model.joblib"

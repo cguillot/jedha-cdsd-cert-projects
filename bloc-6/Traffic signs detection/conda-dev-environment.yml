@@ -1,0 +1,15 @@
+# conda env create -f conda-dev-environment.yml
+# conda activate jedha-dsfs-ft-31-final-project-dev-env
+name: jedha-dsfs-ft-31-final-project-dev-env
+dependencies:
+  - ipykernel
+  - pip
+  - python=3.11
+  - pip:
+    - dotenv-cli
+    - opencv-python
+    - pandas
+    - python-dotenv
+    - pyaml
+    - roboflow
+    - ultralytics
