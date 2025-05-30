@@ -42,6 +42,9 @@ Délivrables:
 - [04-b3-Uber_Pickups_Generalisation](04-b3-Uber_Pickups_Generalisation.ipynb) : construction d'un graphe interactif pour les différent jours de la semaine
 - [05-b3-Uber_Pickups_images.md](05-b3-Uber_Pickups_images.md) : inventaire des snapshots des graphiques du notebooks (ceux qui ne sont pas visibles dans github)
 
+Live Hot Zones dashboard:
+- [Uber Hot Zones - démo](https://pikaboum-cdsd-bloc-3-uber-rides-dashboard.hf.space/)
+
 Présentation
 - [PPT projet Uber Pickups](https://1drv.ms/p/c/e238927bf76c9315/EUzidAMyPTlBk698DPXLAJYBEeoNl3QmiQaIYoz-HYnVPQ?e=o5Zsq2)
 

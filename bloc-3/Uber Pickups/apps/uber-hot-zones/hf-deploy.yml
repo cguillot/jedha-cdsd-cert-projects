@@ -1,0 +1,11 @@
+hf-deploy:
+  name: cdsd-bloc-3-uber-rides-dashboard
+  content:
+    - from: Dockerfile
+    - from: main.py
+    - from: pyproject.toml
+    - from: ../../../../uv.lock
+    - from: ./data/uber-raw-data-sep14.zip
+      to: data/uber-raw-data-sep14.zip
+    - from: hf.README.md
+      to: README.md

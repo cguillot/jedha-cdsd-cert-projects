@@ -63,4 +63,5 @@ infra-deployment-helpers = { git = "https://github.com/cguillot/jedha_infra_help
 members = [
     "bloc-5/Getaround/apps/api",
     "bloc-5/Getaround/apps/dashboard",
+    "bloc-3/Uber Pickups/apps/uber-hot-zones",
 ]
