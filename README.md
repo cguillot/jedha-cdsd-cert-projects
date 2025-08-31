@@ -8,7 +8,7 @@
 - [Bloc 5](bloc-5/README.md) : Industrialisation d'un algorithme d'apprentissage automatique et automatisation des processus de décision
 - [Bloc 6](bloc-6/README.md) : Direction de projets de gestion de données
 
-# Environement de développement
+# Environnement de développement
 
 ## Mise en place (facultatif pour de la lecture de notebook)
 Il est impératif de configurer l'environnement et l'infrastructure partagés:
